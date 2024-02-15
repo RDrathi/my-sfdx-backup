@@ -135,6 +135,7 @@ public with sharing class AccountServiceLayer {
     Account acc = new Account();
     acc.Name = 'Default Account';
     acc.Description = 'Default Account Description';
+    acc.AccountNumber = 'ACC007';
     return acc;
   }
 }
