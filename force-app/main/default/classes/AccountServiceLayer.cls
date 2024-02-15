@@ -131,6 +131,10 @@ public with sharing class AccountServiceLayer {
     }
   }
 
+  /**
+   * @description - Creates a default account object record. Demonstrates simple usage of
+   * the account object.
+   */
   public static Account createDefaultAccount() {
     Account acc = new Account();
     acc.Name = 'Default Account';
