@@ -24,7 +24,7 @@ public with sharing class ApexClassUtilities {
       theApexClass.Body
     );
     matcher.find();
-    String groupName = '';
+    String groupName = 'instance of ApexClass';
     try {
       groupName = matcher.group(1);
     } catch (StringException matcherException) {
